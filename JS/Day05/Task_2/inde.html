@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Validation Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form id="form">
+        <label for="name">Name</label>
+        <input class="in" type="text" id="name" placeholder="Enter Your Name">
+        <span class="error" id="nameError"></span>
+        <!-- -------------------------------------------------------------------------- -->
+        <label for="pass">Email</label>
+        <input class="in" id="email" placeholder="Enter Email">
+        <span class="error" id="emailError"></span>
+        <!-- -------------------------------------------------------------------------- -->
+        <label for="pass">Password</label>
+        <input class="in" id="pass" placeholder="Enter Password">
+        <span class="error" id="passError"></span>
+        <!-- -------------------------------------------------------------------------- -->
+        <div>
+            <div>Gender</div>
+            <input type="radio" name="gender" check value="" id="gen">Male
+            <input type="radio" name="gender" check value="" name="" id="gen">Female
+            <span class="error" id="genError"></span>
+        </div>
+        <!-- -------------------------------------------------------------------------- -->
+        <div>Sports</div>
+        <input type="checkbox" check value="tennis" id="sp1">Tennis
+        <input type="checkbox" check value="run" id="sp2">Running
+        <input type="checkbox" check value="fb" id="sp3">Football
+        <span class="error" id="spError"></span>
+        <!-- -------------------------------------------------------------------------- -->
+        <label>Country</label>
+        <select name="Country" id="country">
+            <option value="" disabled selected>-- Select a country --</option>
+            <option value="eg">Egypt</option>
+            <option value="us">United States</option>
+            <option value="ca">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="au">Australia</option>
+            <option value="in">India</option>
+            <option value="de">Germany</option>
+            <option value="fr">France</option>
+            <option value="jp">Japan</option>
+            <option value="cn">China</option>
+        </select>
+        <span class="error" id="cnError"></span>
+        <!-- -------------------------------------------------------------------------- -->
+
+        <br>
+        <button type="submit" id="submit">Submit</button>
+        <button type="reset">reset</button>
+    </form>
+    <script src="T2.js"></script>
+</body>
+
+</html>

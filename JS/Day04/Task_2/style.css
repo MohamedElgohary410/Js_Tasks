@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #000;
+}
+
+
+input {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 30%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+
+div {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 25%;
+    background-color: #eee;
+    padding: 1em;
+}

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-left: 25%;
+}
+
+label {
+    display: block;
+    margin: 20px 0 5px;
+}
+
+span {
+    color: red;
+}
+
+.in {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#gen {
+    display: inline;
+    width: 5%;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+#sp {
+    display: inline;
+}
+
+select {
+    width: 15%;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(240, 26, 26);
+}

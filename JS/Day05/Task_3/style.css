@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.parent {
+    display: block;
+    background-color: white;
+    width: 30em;
+    height: 10em;
+    margin-top: 5em;
+    margin-left: 20em;
+    border: #B7B7B7;
+
+}
+
+.parent2 {
+    background-color: rgb(255, 255, 255);
+    width: 5em;
+    height: 5em;
+    text-align: center;
+    margin-left: 33em;
+}
+
+.ch1 {
+    background-color: #B7B7B7;
+    width: 10em;
+    height: 10em;
+    float: left;
+    border-radius: 50%;
+}
+
+.ch2 {
+    background-color: #B7B7B7;
+    width: 10em;
+    height: 10em;
+    float: left;
+    border-radius: 100%;
+
+}
+
+.ch3 {
+    background-color: #B7B7B7;
+    width: 10em;
+    height: 10em;
+    float: left;
+    border-radius: 100%;
+
+}
+
+#span {
+    display: block;
+    padding-top: 1.5em;
+    font-size: 2.5em;
+}

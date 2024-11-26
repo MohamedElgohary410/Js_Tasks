@@ -1,0 +1,45 @@
+== Dom
+    -- How to Change Content
+    -- How to change style
+    -- Deal with attributes
+    -- Create New Elements from js
+
+== Bom 
+    -- window
+    -- history 
+    -- location
+    -- screen -- self Study
+    -- navigation
+
+== Event
+    -- add attributes
+    -- Attach Function
+    -- Remove Attributes
+
+
+ * === change Content
+ *  -- innerText
+ *  -- innerHTML
+ *  -- textContent -- search
+ * -------------------------------
+ * inputs
+ * == value
+ * ---------------
+/**
+ * Style
+ * ---------------------
+ * == style
+ * == className
+ * == classList
+ *  -- add
+ *  -- remove
+ *  -- toggle
+ * -------------------attributes---------------
+ * .attributes
+ *  == getAttributes
+ *  == setAttributes
+ *  == hasAttributes
+ *  == removeAttributes
+ *  == toggleAttributes
+ *
+ */

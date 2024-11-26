@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Student Table</h1>
+    <form id="studentForm">
+        <label for="studentName">Enter Student Name</label>
+        <input type="text" id="studentName" placeholder="Enter Student Name">
+        <span class="error" id="nameError"></span>
+
+        <label for="studentAge">Enter Student Age</label>
+        <input type="number" id="studentAge" placeholder="Enter Student Age">
+        <span class="error" id="ageError"></span>
+
+        <button type="submit">Add Student</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="studentTableBody">
+
+        </tbody>
+    </table>
+
+    <script src="T1.js"></script>
+</body>
+
+</html>
